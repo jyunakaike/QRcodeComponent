@@ -63,7 +63,7 @@ p {
     color: var(--GrayishBlue)
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 400px) {
     body{
         background-color: var(--LightGray);
         display: flex;
@@ -83,12 +83,14 @@ p {
         border-radius: 20px;
         width: 17%;
         height: auto;
+        max-height: 510px;
         padding: 10px 0px 10px 0px;
         box-shadow: var(--GrayishBlue) 2px 7px 10px;
     }
     
     img{
         border-radius: 10px;
+        width:90%;
     }
     
     .detailContainer{
