@@ -1,0 +1,116 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: var(--LightGray);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20% 5% 0 5%;
+    gap: 30px;
+}
+
+.container{
+    background-color: var(--White);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    padding: 5% 5% 5% 5%;
+    box-shadow: var(--GrayishBlue) 2px 7px 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.detailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0% 5% 0%;
+    gap: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--GrayishBlue)
+}
+
+@media (min-width: 1024px) {
+    body{
+        background-color: var(--LightGray);
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        padding: 10% 0% 0% 0%;
+        gap: 30px;
+    }
+    
+    .container{
+        background-color: var(--White);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 16%;
+        height: auto;
+        padding: 20px 0px 10px 0px;
+        box-shadow: var(--GrayishBlue) 2px 7px 10px;
+    }
+    
+    img{
+        border-radius: 10px;
+    }
+    
+    .detailContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5% 5% 8% 5%;
+        gap: 15px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 1.8rem;
+        color: var(--GrayishBlue)
+    }
+
+
+    
+}
